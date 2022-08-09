@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Module 2 by DJ</title>
+<link rel="stylesheet" href="./style1.css">
+
+<style>
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+}
+
+p {
+  background-color: rgb(195,195,195);
+  padding:50px;
+  width: 95%;
+  height: 250px;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: Times;
+  font-style: italic;
+  font-size: 30px;
+  color: rgb(10,20,30);
+}
+
+#row {
+  width: 100%;
+  position: relative;
+  left: 10;
+  right: 10;
+  top: 10; 
+}
+
+/********** Desktop view **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33%;
+  }
+  .col-lg-2 {
+    width: 33%;
+  }
+  .col-lg-3 {
+    width: 33%;
+  }
+}
+
+/********** Tablet view **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+}
+
+/* For Mobile-phones: */
+@media (max-width: 767px) {
+ #p1 { width: 100%; }
+ #p2 { width: 100%; }
+ #p3 { width: 100%; }
+}
+
+div#star1 {
+  background-color: #00FFFF;
+  position: relative;
+  top: 60px;
+}
+#p1 {
+  width: 40%;
+  height: 20%;
+  background-color: rgb(210,220,230);
+  position: relative;
+  top: 55px;
+  right: 10px;
+  left: 110px;
+}
+#t1 {
+  width: 40%;
+  height: 30%;	
+  position: relative;
+  top: 55px;
+  right: 10px;
+  left: 50px;
+}
+#h1{
+  padding:50px;
+  margin-right: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: Times;
+  font-style: normal; 
+  font-size: 40px;
+  text-align: center; 
+}
+
+#sta1{
+  background-color: #ff00ff;
+  width: 40%;
+  height: 30%;	
+  padding:40px;
+  margin-left: 350px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: Times;
+  font-style: normal; 
+  font-size: 36px;
+  text-align: center; 
+  position: relative;
+  top: 15px;
+  left: 20px;
+  right: 20px; 
+  bottom: 30px;
+  border: 1px solid black;	
+}
+
+#sta2{
+  background-color: #ff1493;
+  width: 40%;
+  height: 30%;	
+  padding: 40px;
+  margin-left: 350px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-family: Times;
+  font-style: normal; 
+  font-size: 36px;
+  text-align: center; 
+   position: relative;
+  top: 10px;
+  left: 25px;
+  right: 20px; 
+  bottom: 10px; 
+  border: 1px solid black;	
+} 
+
+#sta3{
+  background-color: #ff5193;
+  width: 40%;
+  height: 30%;	
+  padding:40px;
+  margin-left: 350px;
+  margin-top: 36px;
+  font-family: Times;
+  font-style: normal; 
+  font-size: 34px;
+  text-align: center; 
+   position: relative;
+  top: 10px;
+  left: 20px;
+  right: 20px; 
+  border: 1px solid black;	
+}
+
+.item-1 {	
+    position: relative;
+	top: 10px;
+    left: 30px;
+	bottom: 100px;
+    width:30%;
+    height: 400px;
+    background-color: rgb(195,195,195);
+    margin-left: 10px;
+	border: 1px solid black;
+  }
+.item-2 {
+    position: relative;
+	top: 10px;
+    left: 40px;
+	bottom: 100px;
+	width:30%;
+	height: 400px;
+    background-color: rgb(195,195,195);
+    margin-left: 10px;
+	margin: auto;
+    border: 1px solid black;
+  }
+
+  .item-2 {
+    position: relative;
+	top: 5px;
+    left: 55px;
+	bottom: 120px;
+	width:30%;
+	height: 400px;
+    background-color: rgb(195,195,195);
+    margin-left: 10px;
+	margin: auto;
+    border: 1px solid black;
+  }
+
+  .item-3 {
+    position: relative;
+	top: 10px;
+    left: 100px;
+	bottom: 100px;
+	width:30%;
+	height: 400px;
+    background-color: rgb(195,195,195);
+    margin-left: 10px;
+	margin: auto;
+    border: 1px solid black;
+  }
+
+
+#p1 {	
+    background-color: rgb(195,195,195);
+    width: 90%;
+	position: relative;
+	top: 20px;
+    left: 20px;
+	bottom: 200px;
+}
+
+#p2 {	
+    background-color: rgb(195,195,195);
+    width: 90%;
+    height: 40%;
+	position: relative;
+	top: 10px;
+    left: 20px;
+	bottom: 250px;
+    margin-bottom: 20px;
+}
+
+#p3 {	
+    background-color: rgb(195,195,195);
+    width: 90%;
+    height: 50%;
+	position: relative;
+	top: 10px;
+    left: 20px;
+	bottom: 220px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="row">
+
+    <h1 id="h1">Meny</h1>
+
+	<div class="item-1 col-lg-3 col-md-1"> 
+		<div id="sta1" class="star1">  Star1  </div> 
+		<p id="p1"> Stellae sunt pretiosae, inaestimabilis, unica et originalia . . . </p>   
+	</div>
+        
+	<div class="item-2 col-lg-3 col-md-2"> 
+		<div id="sta2" class="star2">Star2</div> 
+		<p id="p2"> Stellae sunt pretiosae, inaestimabilis, unica et originalia . . . </p>
+    </div>
+ 
+    <div class="item-3 col-lg-3 col-md-3">     
+        <div id="sta3" class="star3">Star3</div> 
+		<p id="p3"> Stellae sunt pretiosae, inaestimabilis, unica et originalia . . . </p> 
+     </div>
+
+</div>
+
+</body>
+</html>
